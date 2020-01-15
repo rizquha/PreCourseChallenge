@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Challenge01\YourName.csproj" />
+    <ProjectReference Include="..\Challenge02\DaysToNextBirthday.csproj" />
+    <ProjectReference Include="..\Challenge03\StringLength.csproj" />
+    <ProjectReference Include="..\Challenge04\Substitution.csproj" />
+    <ProjectReference Include="..\Challenge05\EvenOdd.csproj" />
+    <ProjectReference Include="..\Challenge06\Grade.csproj" />
+    <ProjectReference Include="..\Challenge07\TempratureConverter.csproj" />
+    <ProjectReference Include="..\Challenge08\LeapYear.csproj" />
+    <ProjectReference Include="..\Challenge09\Timezone.csproj" />
+    <ProjectReference Include="..\Challenge10\Calculator.csproj" />
+    <ProjectReference Include="..\Challenge11\SumArgument.csproj" />
+    <ProjectReference Include="..\Challenge12\ToUpperCase.csproj" />
+    <ProjectReference Include="..\Challenge13\CountWords.csproj" />
+    <ProjectReference Include="..\Challenge14\PalindromeDetector.csproj" />
+    <ProjectReference Include="..\Challenge15\MirrorString.csproj" />
+    <ProjectReference Include="..\Challenge16\FruitFinder.csproj" />
+    <ProjectReference Include="..\Challenge18\FindMinMaxAvg.csproj" />
+    <ProjectReference Include="..\Challenge19\Sorter.csproj" />
+    <ProjectReference Include="..\Challenge20\ObjectClass.csproj" />
+    <ProjectReference Include="..\Challenge17\FooBarBaz.csproj" />
+  </ItemGroup>
+
+</Project>
